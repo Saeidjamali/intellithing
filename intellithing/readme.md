@@ -6,7 +6,7 @@
 1. [Supported Model Types](#supported-model-types)
 2. [Usage](#usage)
    - [Initialization](#initialization)
-   - [Method](#Method)
+   - [Method](#Methods)
    - [Examples](#Examples)
    
 3. [Notes](#notes)
