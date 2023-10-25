@@ -6,9 +6,9 @@
 1. [Supported Model Types](#supported-model-types)
 2. [Usage](#usage)
    - [Initialization](#initialization)
-   - [Freezing Layers](#freezing-layers)
-   - [Unfreezing Layers](#unfreezing-layers)
-   - [Freezing and Unfreezing All Layers](#freezing-and-unfreezing-all-layers)
+   - [Freezing/Unfreezeing](#Freeze/Unfreeze All Layers)
+   - [Examples](#Examples)
+   
 3. [Notes](#notes)
 
 ## Supported Model Types
@@ -100,3 +100,5 @@ layers_to_unfreeze = [10, 11]
 freezer.unfreeze_layers(layers_to_unfreeze, part='decoder')
 ```
 
+## Note:
+Please ensure the right model names are included. For example instead of "t5-base" write it as "t5"
