@@ -6,7 +6,7 @@
 1. [Supported Model Types](#supported-model-types)
 2. [Usage](#usage)
    - [Initialization](#initialization)
-   - [Freezing and Unfreezeing](#Freeze/Unfreeze All Layers)
+   - [Freezing and Unfreezeing](#Freeze-and-Unfreeze All Layers)
    - [Examples](#Examples)
    
 3. [Notes](#notes)
@@ -62,7 +62,7 @@ Parameters:
 - `layer_indices`: A list of indices for the layers you want to freeze or unfreeze.
 - `part`: The part of the model you're referring to - this can be 'encoder', 'decoder', or 'all'. By default, it's set to 'encoder'.
 
-#### Freeze/Unfreeze All Layers
+#### Freeze and Unfreeze All Layers
 
 To freeze or unfreeze all layers in the model:
 
