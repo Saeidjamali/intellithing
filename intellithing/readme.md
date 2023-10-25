@@ -123,3 +123,4 @@ python
 Copy code
 layers_to_unfreeze = [10, 11]
 freezer.unfreeze_layers(layers_to_unfreeze, part='decoder')
+Copy and paste this content into your README.md file for a Markdown-friendly documentation. Adjustments can be made as necessary to tailor it to your project's needs.
