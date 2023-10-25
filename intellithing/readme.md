@@ -6,7 +6,7 @@
 1. [Supported Model Types](#supported-model-types)
 2. [Usage](#usage)
    - [Initialization](#initialization)
-   - [Freezing and Unfreezeing](#Freeze-and-Unfreeze All Layers)
+   - [Method](#Method)
    - [Examples](#Examples)
    
 3. [Notes](#notes)
