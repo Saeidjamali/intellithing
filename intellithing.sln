@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "intellithing", "intellithing.pyproj", "{71F99789-69E1-4ABD-8C76-DA358CA3AA3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71F99789-69E1-4ABD-8C76-DA358CA3AA3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F99789-69E1-4ABD-8C76-DA358CA3AA3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F3C6D42-768F-445C-87A1-FC1D579EF45B}
+	EndGlobalSection
+EndGlobal
