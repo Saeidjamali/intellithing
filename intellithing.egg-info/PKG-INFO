@@ -1,5 +1,7 @@
 Metadata-Version: 2.1
 Name: intellithing
-Version: 0.2
+Version: 0.4
+License-File: LICENSE
 Requires-Dist: transformers
-Requires-Dist: matplotlibtorch
+Requires-Dist: matplotlib
+Requires-Dist: torch
