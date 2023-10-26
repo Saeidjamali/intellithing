@@ -35,7 +35,7 @@
 To initialize the `LayerFreezer` class:
 
 ```python
-from layer_freezer import LayerFreezer
+from intellithing.layer_freezer import LayerFreezer
 freezer = LayerFreezer(model_instance, model_type='model_name_here')
 ```
 
@@ -126,7 +126,7 @@ The `LearningRateFinderCallback` is a callback provided by the `intellithing` li
 
 ```python
 # Import the LearningRateFinderCallback from intellithing
-from intellithing import LearningRateFinderCallback
+from intellithing.lr_finder import LearningRateFinderCallback
 
 # Create your training and validation datasets
 train_dataset = T5CustomDataset(tokenizer, train_df, 'input_text', 'target_text', source_max_len=512, target_max_len=256)
