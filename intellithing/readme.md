@@ -165,7 +165,7 @@ trainer.train()
 ------------------------------
 
 
-# Hyperparameter Tuner for Transformer Models
+## Hyperparameter Tuner for Transformer Models
 
 This project provides a tool for hyperparameter tuning of models available in the Hugging Face transformers library. It is designed to dynamically handle various types of transformer models and is particularly useful for tasks such as text classification, text generation, etc.
 
