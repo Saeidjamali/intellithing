@@ -1,4 +1,6 @@
 ![License](https://img.shields.io/github/license/Saeidjamali/intellithing)
+![Release](https://img.shields.io/github/v/release/Saeidjamali/intellithing?label=release)
+
 
 
 # intellithing
