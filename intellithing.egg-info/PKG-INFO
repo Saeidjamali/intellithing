@@ -4,4 +4,6 @@ Version: 0.4
 License-File: LICENSE
 Requires-Dist: transformers
 Requires-Dist: matplotlib
+Requires-Dist: optuna
+Requires-Dist: scikit-learn
 Requires-Dist: torch

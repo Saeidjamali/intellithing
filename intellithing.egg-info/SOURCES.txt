@@ -2,6 +2,7 @@ LICENSE
 README.md
 setup.py
 intellithing/__init__.py
+intellithing/hyper_tuner.py
 intellithing/layer_freezer.py
 intellithing/lr_finder.py
 intellithing.egg-info/PKG-INFO
