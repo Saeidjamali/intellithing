@@ -8,7 +8,7 @@ setup(
         "transformers",
         "matplotlib",
         "optuna",
-        "scikit-learn"
+        "scikit-learn",
         "torch"
     ],
 )
