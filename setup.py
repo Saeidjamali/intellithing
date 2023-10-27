@@ -7,6 +7,8 @@ setup(
     install_requires=[
         "transformers",
         "matplotlib",
+        "optuna",
+        "scikit-learn"
         "torch"
     ],
 )
