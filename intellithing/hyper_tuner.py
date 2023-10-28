@@ -71,6 +71,7 @@ class HyperparameterTuner:
 
 
     def objective(self, trial):
+        model = self._load_model()  # This gets the model instance based on your model_type
         # Hyperparameter settings remain unchanged
         lr = trial.suggest_float("lr", 1e-5, 5e-5, log=True)
         per_device_train_batch_size = trial.suggest_categorical("per_device_train_batch_size", [2, 4, 8])
