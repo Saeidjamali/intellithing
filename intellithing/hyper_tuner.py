@@ -26,6 +26,8 @@ class HyperparameterTuner:
 
         self.config = AutoConfig.from_pretrained(model_name)
         self.model_type = self.config.model_type
+        self.model = self._load_model()  # This method should load the model based on self.model_name and self.model_type
+
         
         
     def _load_model(self):
@@ -71,7 +73,6 @@ class HyperparameterTuner:
 
 
     def objective(self, trial):
-        model = self._load_model()  # This gets the model instance based on your model_type
         # Hyperparameter settings remain unchanged
         lr = trial.suggest_float("lr", 1e-5, 5e-5, log=True)
         per_device_train_batch_size = trial.suggest_categorical("per_device_train_batch_size", [2, 4, 8])
@@ -104,7 +105,7 @@ class HyperparameterTuner:
 
 
         trainer = Trainer(
-            model=model,
+            model=self.model,
             args=training_args,
             train_dataset=self.train_dataset,
             eval_dataset=self.val_dataset,
