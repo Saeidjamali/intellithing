@@ -137,4 +137,4 @@ class HyperparameterTuner:
 # Usage example:
 # You need to ensure 'model_name', 'tokenizer', 'train_dataset', and 'val_dataset' are properly defined before this step.
 # tuner = HyperparameterTuner(model_name, tokenizer, train_dataset, val_dataset)
-# best_params = tuner.tune_hyperparameters(n_trials=10, subset_size=0.1)  # Adjust as necessary
+# best_params = tuner.tune_hyperparameters(n_trials=10, subset_size=0.1)  # Adjust as necessary according to GPU memory available
