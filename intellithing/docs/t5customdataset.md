@@ -6,7 +6,7 @@
 
 # Usage
 
-''' python
+``` python
 classification_dataset = T5DynamicDataset(
     tokenizer=tokenizer,
     data=classification_data,
@@ -17,4 +17,4 @@ classification_dataset = T5DynamicDataset(
     # No need for task_specific_params in classification
 )
 
-'''
+```
