@@ -12,6 +12,6 @@
 
 intellithing (separate from INTELLITHING platform) is an open-source project started by frustrated data scientists.
 
-intellithing is an opensource library to reduce the amount of coding required for a successful finetuning of Large Language Models. 
+intellithing is an open-source library to reduce the amount of coding required for a successful finetuning of Large Language Models. 
 # Install
 pip install intellithing
