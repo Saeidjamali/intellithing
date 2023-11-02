@@ -2,9 +2,11 @@ LICENSE
 README.md
 setup.py
 intellithing/__init__.py
+intellithing/autotrainer.py
 intellithing/hyper_tuner.py
 intellithing/layer_freezer.py
 intellithing/lr_finder.py
+intellithing/t5customdataset.py
 intellithing.egg-info/PKG-INFO
 intellithing.egg-info/SOURCES.txt
 intellithing.egg-info/dependency_links.txt

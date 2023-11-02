@@ -62,8 +62,6 @@ class T5RegressionDataset(Dataset):
         except (TypeError, ValueError):
             return False
 
-        from torch.utils.data import Dataset
-
 
 class T5ClassificationDataset(Dataset):
     def __init__(self, tokenizer, data, input_column, target_column, source_max_len=512, target_max_len=32):
