@@ -1,9 +1,0 @@
-Metadata-Version: 2.1
-Name: intellithing
-Version: 0.10
-License-File: LICENSE
-Requires-Dist: transformers
-Requires-Dist: matplotlib
-Requires-Dist: optuna
-Requires-Dist: scikit-learn
-Requires-Dist: torch

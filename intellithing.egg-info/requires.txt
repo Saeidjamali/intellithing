@@ -1,5 +1,0 @@
-transformers
-matplotlib
-optuna
-scikit-learn
-torch
