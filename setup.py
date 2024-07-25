@@ -18,5 +18,13 @@ setup(
         "PyPDF2",
         "sqlalchemy"
     ],
+    entry_points={
+        'console_scripts': [
+            'intellithing=intellithing.main:main',
+        ],
+    },
+    package_data={
+        'intellithing': ['evaluators/config.yaml'],
+    },
+    include_package_data=True,
 )
-

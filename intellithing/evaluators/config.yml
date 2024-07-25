@@ -1,0 +1,14 @@
+database:
+  type: sqlite
+  username: ""
+  password: ""
+  host: "localhost"
+  port: ""
+  database: "path/to/your/database.db"
+
+inference_api:
+  url: "http://your_inference_api_url"
+
+openai:
+  api_key: "your_openai_api_key"
+  model: "gpt-4"
