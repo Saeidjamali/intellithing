@@ -12,7 +12,7 @@
 
 # intellithing
 
-intellithing (separate from INTELLITHING Meta-OS) is an open-source project started by frustrated data scientists. 
+intellithing (NOT the same as INTELLITHING Meta-OS) is an open-source project started by frustrated data scientists. This project is a different project than meta-os. 
 
 intellithing is an open-source library designed to reduce the amount of coding required for the successful fine-tuning of large language models. 
 
